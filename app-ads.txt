@@ -1,1 +1,122 @@
-google.com, pub-5298072413259422, DIRECT, f08c47fec0942fa0
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حاسبة التجار</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img.logo {
+      max-width: 100px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .download-btn {
+      margin-top: 20px;
+      background: #10b981;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .feature h3 {
+      margin-top: 0;
+      color: #10b981;
+    }
+    .news {
+      margin-top: 40px;
+    }
+    .footer {
+      text-align: center;
+      padding: 30px;
+      background: #111827;
+      color: #ccc;
+    }
+    a {
+      color: #10b981;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/unnamed.webp" alt="شعار التطبيق" class="logo">
+    <h1>حاسبة التجار</h1>
+    <p>التطبيق الأمثل للتجار لحساب العمليات اليومية بدقة وسرعة</p>
+    <a class="download-btn" href="https://play.google.com/store/apps/details?id=com.tranderscalculator.mynotes&hl=ar" target="_blank">
+      تحميل التطبيق من Google Play
+    </a>
+  </header>
+
+  <section>
+    <h2>مميزات التطبيق</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>حساب سريع ودقيق</h3>
+        <p>نفّذ جميع عملياتك الحسابية اليومية بسرعة وكفاءة دون تعقيد.</p>
+      </div>
+      <div class="feature">
+        <h3>حفظ وتسمية العمليات</h3>
+        <p>سجّل كل عملية واحفظها باسم خاص ليسهل الرجوع إليها لاحقًا.</p>
+      </div>
+      <div class="feature">
+        <h3>حساب تلقائي للإجمالي</h3>
+        <p>يعرض لك مجموع كل العمليات بنقرة واحدة.</p>
+      </div>
+      <div class="feature">
+        <h3>تخصيص الواجهة</h3>
+        <p>إمكانية إدخال اسم وشعار المتجر في التطبيق.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="news">
+    <h2>آخر التحديثات</h2>
+    <p>تابع جديد التطبيق من خلال مدونتنا.</p>
+    <p><a href="/" target="_blank">زيارة المدونة ←</a></p>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 حاسبة التجار. جميع الحقوق محفوظة. | تصميم مخصص بواسطة وكالة فخامة ماجد
+  </div>
+</body>
+</html>
